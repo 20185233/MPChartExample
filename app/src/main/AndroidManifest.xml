@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.zhuanghongji.mpchartexample">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".notimportant.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/backgroundnew"
+        android:label="情绪识别"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".notimportant.MainActivity4"></activity>
+        <activity android:name=".notimportant.MainActivity3" />
+        <activity android:name=".notimportant.MainActivity2" />
+
+        <receiver android:name=".notimportant.AutoReceiver" >
+            <intent-filter>
+                <action android:name="VIDEO_TIMER">
+                </action>
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".notimportant.LongRunningService"></service>
+
+        <receiver android:name=".notimportant.AlarmReciver"></receiver>
+
+        <activity
+            android:name=".notimportant.ListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="设备列表"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog.MinWidth" />
+        <activity
+            android:name=".notimportant.MainActivity"
+            android:theme="@style/AppTheme.WelcomeTheme"
+            tools:ignore="Instantiatable">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LineChartActivity1"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".LineChartActivity2"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".LineChartTime"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".BarChartActivity"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".HorizontalBarChartActivity"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".PieChartActivity"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".PiePolylineChartActivity"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".MultiLineChartActivity"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".BarChartActivityMultiDataset"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".DrawChartActivity"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".ScatterChartActivity"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".BubbleChartActivity"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".fragments.SimpleChartDemo"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".ListViewBarChartActivity"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".ListViewMultiChartActivity"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".StackedBarActivity"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".AnotherBarActivity"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".InvertedLineChartActivity"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".CandleStickChartActivity"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".CubicLineChartActivity"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".RadarChartActivitry"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".LineChartActivityColored"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".DynamicalAddingActivity"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".realm.RealmDatabaseActivityLine"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".realm.RealmDatabaseActivityBar"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".realm.RealmDatabaseActivityHorizontalBar"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".realm.RealmDatabaseActivityScatter"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".realm.RealmDatabaseActivityCandle"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".realm.RealmDatabaseActivityBubble"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".realm.RealmDatabaseActivityPie"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".realm.RealmDatabaseActivityRadar"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".realm.RealmMainActivity"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".RealtimeLineChartActivity"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".CombinedChartActivity"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".PerformanceLineChart"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".BarChartActivitySinus"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".ScrollViewActivity"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".StackedBarActivityNegative"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".realm.RealmWikiExample"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".BarChartPositiveNegative"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".FilledLineActivity"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".HalfPieChartActivity"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".AboutActivity"
+            tools:ignore="Instantiatable" />
+    </application>
+
+</manifest>

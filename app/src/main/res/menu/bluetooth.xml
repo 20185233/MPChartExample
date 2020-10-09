@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/open"
+        android:title="OPEN">
+    </item>
+    <item
+        android:id="@+id/scan"
+        android:title="SCAN">
+    </item>
+    <item
+        android:id="@+id/disconnect"
+        android:title="DISCONNECT">
+    </item>
+
+</menu>

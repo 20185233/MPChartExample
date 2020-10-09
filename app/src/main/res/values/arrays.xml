@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gradeArray1">
+        <item>请选择模型</item>
+        <item>模型1</item>
+        <item>模型2</item>
+        <item>模型3</item>
+    </string-array>
+
+    <string-array name="gradeArray2">
+        <item>是否开启摄像头</item>
+        <item>摄像头1</item>
+        <item>摄像头2</item>
+        <item>摄像头3</item>
+    </string-array>
+
+    <string-array name="gradeArray3">
+        <item>请选取图片</item>
+        <item>图片1</item>
+        <item>图片2</item>
+        <item>图片3</item>
+    </string-array>
+</resources>
